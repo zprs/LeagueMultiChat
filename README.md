@@ -12,8 +12,16 @@ Here is a quick excerpt from the [TOS](https://www.riotgames.com/en/terms-of-ser
 
 ``` text
 The following are examples of behavior that warrant disciplinary measures:
-viii. Spamming chat, whether for personal or commercial purposes, by disrupting the flow of conversation with repeated postings;
-x. Using any unauthorized third party programs, including mods, hacks, cheats, scripts, bots, trainers and automation programs that interact with the Riot Services in any way, for any purpose, including any unauthorized third party programs that intercept, emulate, or redirect any communication relating to the Riot Services and any unauthorized third party programs that collect info about the Riot Services by reading areas of memory used by the Riot Services to store info;
+
+viii. Spamming chat, whether for personal or commercial purposes, by disrupting the 
+flow of conversation with repeated postings;
+
+x. Using any unauthorized third party programs, including mods, hacks, cheats, scripts, bots,
+trainers and automation programs that interact with the Riot Services in any way, for any purpose,
+including any unauthorized third party programs that intercept, emulate, or redirect any 
+communication relating to the Riot Services and any unauthorized third party programs that 
+collect info about the Riot Services by reading areas of memory used by the Riot Services to 
+store info;
 ```
 
 ## Pre-Built Versions
