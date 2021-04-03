@@ -1,9 +1,6 @@
 # LeagueMultiChat
 This application allows multiple users to type for another player in the League of Legends in game chat.
 
-![alt text](https://github.com/zprs/LeagueMultiChat/blob/master/icons/leagueappicon.png?raw=true)
-
-
 ## Application Description
 League Multi Chat is an electron application running node packages, socket.io, express, and robotjs. The application connects clients from across a network and transmits a message to be typed in chat. In order to type the message in chat, robotjs is emulating an enter key press, followed by the message, and terminated by another enter key press to send the message and close the chat box.
 
