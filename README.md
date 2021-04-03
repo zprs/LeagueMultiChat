@@ -7,11 +7,38 @@ This application lies in a grey area in Riot's rules. Macros are not allowed and
 
 The built windows version of this application can be acquired at the dropbox link: https://www.dropbox.com/s/3aznlg03nztrwg1/LeagueMultiChat-windows.zip?dl=1
 
-In order to build and run yourself:
+## Building and Running
 
+### Prerequisites
+Have node.js(https://nodejs.org/) installed (for Windows you will want the 32-bit version)
+
+### Build
 1. Download the git repo
-2. Run "npm i" (this should install all of the required npm packages)
-3. Run "npm run rebuild-all" 
-4. If on windows run "npm run fix-windows-type-lag" to fix the delay in keystrokes when auto typing chat messages when on windows (default is about 2 characters per second without this fix)
-5. Build for your given operating system by running "npm run package-mac", "npm run package-win", or "npm run package-linux" respectively
-6. Run the generated application file located in the directory "release-builds"
+2. Run
+```bash
+npm i
+```
+(this should install all of the required npm packages)
+3. Run
+
+```bash
+npm run rebuild-all
+```
+
+4. If on windows run 
+```bash
+npm run fix-windows-type-lag
+```
+This will fix the delay in keystrokes when auto typing chat messages when on windows (default is about 2 characters per second without this fix)
+
+5. Build for your given operating system by running one of the following commands respective of your operating sysrem
+```bash
+npm run package-mac
+npm run package-win
+npm run package-linux
+```
+### Run
+Run the generated application file located in the directory "release-builds"
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
