@@ -11,7 +11,7 @@ In order to build and run yourself:
 
 1. Download the git repo
 2. Run "npm i" (this should install all of the required npm packages)
-3. If on windows run "npm fix-windows-type-lag" to fix the delay in keystrokes when auto typing chat messages when on windows (default is about 2 characters per second without this fix)
-4. Build for your given operating system by running "npm package-mac", "npm package-win", or "npm package-linux" respectively
-5. Run the generated application file
-
+3. Run "npm run rebuild-all" 
+4. If on windows run "npm run fix-windows-type-lag" to fix the delay in keystrokes when auto typing chat messages when on windows (default is about 2 characters per second without this fix)
+5. Build for your given operating system by running "npm run package-mac", "npm run package-win", or "npm run package-linux" respectively
+6. Run the generated application file located in the directory "release-builds"
