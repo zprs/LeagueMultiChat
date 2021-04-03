@@ -1,2 +1,6 @@
 # LeagueMultiChat
-Allows other users to chat for you while playing league
+This application allows multiple users to type for onother player in the League of Legends in game chat.
+
+LeagueMultiChat is an electron application running node packages, socket.io, express, and robotjs. The application connects clients from across a network and transmits a message to be typed in chat. In order to type the message in chat, robotjs is emulating an enter key press, followed by the message, and terminated by another enter key press to send the message and close the chat box.
+
+This application lies in a grey area in Riot's rules. Macros are not allowed and a bannable offense, however there are many users who use macros to quickly type things in chat, which is very similar to how this program works. Please keep this in mind and use at your own risk.
