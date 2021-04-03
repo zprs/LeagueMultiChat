@@ -5,7 +5,7 @@ This application allows multiple users to type for another player in the League 
 League Multi Chat is an electron application running node packages, socket.io, express, and robotjs. The application connects clients from across a network and transmits a message to be typed in chat. In order to type the message in chat, robotjs is emulating an enter key press, followed by the message, and terminated by another enter key press to send the message and close the chat box.
 
 ## A quick word on Riot's TOS
-This application is aginst Riot's TOS. Macros are not allowed and a bannable offense, however, there are many players who macros to quickly type things in chat, which is very similar to how this program works. By using this application you will be breaking Riot's TOS and there is a possibility your account will be banned.
+This application is aginst Riot's TOS. Macros are not allowed and they are bannable offense. This being said there are many players who macros to quickly type things in chat, which is very similar to how this program works. By using this application you will be breaking Riot's TOS and there is a possibility your account will be banned.
 
 Here is a quick excerpt from the [TOS](https://www.riotgames.com/en/terms-of-service):
 
