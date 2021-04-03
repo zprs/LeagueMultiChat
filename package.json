@@ -1,0 +1,23 @@
+{
+  "name": "LeagueMultiChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-packager": "^15.2.0",
+    "electron-rebuild": "^2.3.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "robotjs": "^0.6.0",
+    "socket.io": "^4.0.1"
+  }
+}

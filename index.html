@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>League Multi Chat</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="clientOrServerChoice" class="centeredButtonsDiv" style="height: 70vh;">
+            <br>
+            <br>
+            <button class="centeredButtons" type="button" onclick="selectClientOrServer(false)">Host</button>
+            <button class="centeredButtons" type="button" onclick="selectClientOrServer(true)">Connect</button>
+        </div>
+
+        <div id="hostServerOptions" style="display:none">
+            <label for="selectedPort">port</label>
+            <input type="number" id="selectedPort" name="selectedPort" value="8080" min="0" max="65535">
+            <br>
+            <button class="centeredButtons" type="button" onclick="completeServerCreation()">Host Server</button>
+        </div>
+
+        <div id="connectServerOptions" style="display:none">
+            <label for="selectedIp">ip</label>
+            <input type="text" id="selectedIp" name="selectedIp" value="http://77.128.11.58">
+
+            <label for="selectedPortConnect">port</label>
+            <input type="number" id="selectedPortConnect" name="selectedPortConnect" value="8080" min="0" max="65535">
+            <br>
+            <button class="centeredButtons" type="button" onclick="connectToServer()">Connect</button>
+        </div>
+
+        <div id="serverControls" style="display:none">
+            <div id="fauxConsole"><br></div>
+        </div>
+
+        <div id="receiveSendMessagesChoice" class="centeredButtonsDiv" style="display:none; height: 70vh">
+            <br>
+            <button class="centeredButtons" type="button" onclick="functionSendOrReceiveMessages(true)">Send Messages</button>
+            <button class="centeredButtons" type="button" onclick="functionSendOrReceiveMessages(false)">Receive Messages</button>
+            <br>
+        </div>
+
+        <div id="messageSending" style="display:none">
+            <br>
+            <input type="text" id="inputText"">
+            <br>
+            <button class="centeredButtons" type="button" id="sendMessageButton" onclick="sendMessage()">Send Message</button>
+        </div>
+
+        <div id="messageRecieving" style="display:none">
+            <p id="lastReceivedMessages">Last message received:</p>
+            <p class="scrollBox" id="lastMessage"></p>
+            <div class="horizontalLine"></div>
+            <label id="enableMessageTypingText" for="serverPass">Enable auto typing messages</label>
+            <input id="enableTypingCheckbox" type="checkbox" id="enableMessageTyping">
+        </div>
+
+        <div id="searchingForConnection" style="display:none">
+            <p id="searching" style="color: rgb(124, 35, 35);">searching for connection</p>
+            <div class="loader"></div>
+        </div>
+
+        <div id="connected" style="display:none">
+            <p id="searching" style="color: rgba(51, 165, 19, 0.479);">connection established</p>
+       
+        </div>
+
+    </body>
+
+    <script src="messageBotMain.js"></script>
+</html>
