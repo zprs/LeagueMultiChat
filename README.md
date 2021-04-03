@@ -1,4 +1,4 @@
-# LeagueMultiChat
+# League Multi Chat
 This application allows multiple users to type for another player in the League of Legends in game chat.
 
 ## Application Description
