@@ -44,7 +44,7 @@ npm i
 npm run rebuild-all
 ```
 
-4. If on windows run 
+4. If on Windows run 
 ```bash
 npm run fix-windows-type-lag
 ```
