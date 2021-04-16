@@ -50,7 +50,7 @@ npm run fix-windows-type-lag
 ```
 This will fix the delay in keystrokes when auto typing chat messages when on windows (default is about 2 characters per second without this fix)
 
-5. Build for your given operating system by running one of the following commands (respective of your operating system)
+5. Build for your given operating system by running one of the following commands
 ```bash
 npm run package-mac
 npm run package-win
